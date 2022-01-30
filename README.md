@@ -1,2 +1,2 @@
-# FCFS NS2 Project
+# FCFS - UMTS NS2 Project
 This Project was created as a part of Network Simulation and Modeling Course.

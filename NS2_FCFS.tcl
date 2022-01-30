@@ -10,11 +10,8 @@ $ns color 2 Red
 set nf [open out.nam w]
 $ns namtrace-all $nf
 
-
-
 set nt [open test.tr w]
 $ns trace-all $nt
-
 
 #Define a 'finish' procedure
 
@@ -28,7 +25,6 @@ proc finish {} {
 	#exec nam out.nam &
 	exit 0	
 }
-
 
 #Create four nodes
 
@@ -108,13 +104,3 @@ $ns at 4.5 "finish"
 
 #Running the simulator
 $ns run
-
-
-
-
-
-
-
-
-
-
